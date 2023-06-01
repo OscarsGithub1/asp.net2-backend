@@ -1,8 +1,5 @@
 ﻿using Backend.Models.Entities;
 using Microsoft.EntityFrameworkCore;
-using Backend.Models.Entities;
-using Microsoft.EntityFrameworkCore;
-using Backend.Models.DTO_s;
 
 public class IdentityContext : DbContext
 {
@@ -20,12 +17,9 @@ public class IdentityContext : DbContext
     public DbSet<User> Users { get; set; }
     public DbSet<ShoppingCartEntity> ShoppingCarts { get; set; }
     public DbSet<ShoppingCartItemEntity> ShoppingCartsItemEntity { get; set; }
-    public DbSet<ProductEntity> ProductEntity { get; set; }
-    public DbSet<CreateProductDto> CreateProductDto { get; set; }
-
-
-
+    public DbSet<ProductEntity> Products { get; set; }
 }
+
 
 
 

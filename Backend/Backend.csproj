@@ -6,6 +6,11 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+
+  <ItemGroup>
+    <None Remove="C:\Users\enbac\.nuget\packages\microsoft.net.compilers\1.0.0\build\..\tools\**" />
+  </ItemGroup>
+
   <ItemGroup>
     <PackageReference Include="DevExpress.Data" Version="22.2.6" />
     <PackageReference Include="Fluent.Infrastructure" Version="2.0.0-beta-01" />
